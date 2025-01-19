@@ -1,0 +1,105 @@
+/* Body and general layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Background image styling */
+.background-image {
+    background-image: url('assets/growtopia-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Promo message (instruction at the top of the form) */
+.promo-message {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Title */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Required fields styling */
+span {
+    color: red;
+}
+
+/* Left side message after login */
+.left-message {
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    width: 250px;
+}
+
+.left-message p {
+    font-size: 14px;
+    color: #333;
+}
